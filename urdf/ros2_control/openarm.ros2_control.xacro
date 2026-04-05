@@ -13,7 +13,7 @@
              bimanual:=false
              can_fd:=^|true">
 
-    <ros2_control name="openarm_hardware_interface" type="system">
+    <ros2_control name="openarm_${arm_prefix}hardware_interface" type="system">
         <hardware>
           <param name="arm_type">${arm_type}</param>
           <param name="prefix">${arm_prefix}</param>
